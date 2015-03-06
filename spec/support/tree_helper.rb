@@ -25,6 +25,10 @@ class TreeBuilder
   end
 end
 
+def print_names
+  
+end
+
 def build_tree(name, &block)
   node = Node.new(name)
   builder = TreeBuilder.new(node)
